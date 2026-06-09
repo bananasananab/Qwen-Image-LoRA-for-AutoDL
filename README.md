@@ -206,36 +206,6 @@ LoRA 权重、日志和 sample 图片都会写入这里。
 
 ## 常见问题
 
-### `python run default.yaml` 可以吗？
-
-不可以。正确命令是：
-
-```bash
-python3 run.py config/default.yaml
-```
-
-### `bash scripts/cloud_setup.sh` 和训练命令是不是两步？
-
-脚本已经包含训练命令。首次在 AutoDL 上运行时，直接执行：
-
-```bash
-bash scripts/cloud_setup.sh
-```
-
 ### 仓库为什么没有数据集？
 
 为了方便公开分发，也避免误传私人数据，本仓库默认不提交 `datasets/` 下的训练数据。请自行上传图片和 caption 到 AutoDL。
-
-## 发布前检查
-
-本仓库默认忽略：
-
-- 训练数据集
-- 模型权重
-- 输出目录
-- Hugging Face 缓存
-- Python 缓存
-- Next.js 构建产物
-- 本地环境变量文件
-
-上传公开仓库前，请确认没有把自己的图片、caption、token 或模型权重提交进去。
