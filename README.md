@@ -21,6 +21,21 @@ run.py                     训练入口，环境准备好后可直接调用
 datasets/                  放自己的训练数据，仓库默认不提交数据集
 ```
 
+## 参考配置
+
+AutoDL 官网：[https://www.autodl.com/](https://www.autodl.com/)
+
+![AutoDL 参考配置](AutoDL.webp)
+
+| 项目 | 配置 |
+| --- | --- |
+| 镜像 | PyTorch 2.7.0 / Python 3.12 / Ubuntu 22.04 |
+| CUDA | 12.8 |
+| GPU | RTX PRO 6000 96GB * 1 |
+| CPU | 25 vCPU Intel(R) Xeon(R) Platinum 8470Q |
+| 内存 | 120GB |
+| 硬盘 | 系统盘 30GB，数据盘免费 50GB，付费 0GB |
+
 ## AutoDL 快速开始
 
 ### 1. 上传代码
@@ -203,6 +218,12 @@ sample:
 ```
 
 LoRA 权重、日志和 sample 图片都会写入这里。
+
+## LoRA 训练效果
+
+下面是 LoRA 训练完成后的图片展示：
+
+![LoRA 训练效果：Giyu Tomioka](Giyu%20Tomioka.png)
 
 ## 常见问题
 
