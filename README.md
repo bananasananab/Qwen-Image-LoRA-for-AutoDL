@@ -1,6 +1,6 @@
 # Qwen Image LoRA for AutoDL
 
-这是一个面向 AutoDL 的 Qwen Image 家族 LoRA 训练模板。目标是让使用者只需要上传自己的数据集，修改 `config/default.yaml`，然后在 AutoDL 上一键完成环境准备、模型下载和训练。
+这是一个面向 AutoDL 的 Qwen Image 家族 LoRA 训练模板。使用者只需要上传自己的数据集，修改 `config/default.yaml`，然后在 AutoDL 上一键完成环境准备、模型下载和训练。
 
 本仓库不包含任何训练数据集、私有图片、私有 caption 或模型权重。
 
@@ -221,7 +221,7 @@ LoRA 权重、日志和 sample 图片都会写入这里。
 
 ## LoRA 训练效果
 
-下面是 LoRA 训练完成后的图片展示：
+下面是 LoRA 训练完成后使用个人 ComfyUI 工作流的图片展示：
 
 ![LoRA 训练效果：Giyu Tomioka](Giyu%20Tomioka.png)
 
