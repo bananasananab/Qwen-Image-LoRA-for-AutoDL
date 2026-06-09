@@ -1,0 +1,35 @@
+# Local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Training data and outputs
+datasets/*
+!datasets/.gitkeep
+/output/
+/outputs/
+/models/
+/hf_cache/
+aitk_db.db
+*.log
+
+# UI build artifacts
+ui/.next/
+ui/dist/
+ui/node_modules/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
