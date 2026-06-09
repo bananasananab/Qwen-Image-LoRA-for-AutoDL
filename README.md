@@ -225,6 +225,29 @@ LoRA 权重、日志和 sample 图片都会写入这里。
 
 ![LoRA 训练效果：Giyu Tomioka](Giyu%20Tomioka.png)
 
+正面提示词：
+
+```text
+ydd style, Tomioka Giyu, full body dynamic composition. He is leaping into the air in a highly dynamic combat stance, twisting his body in mid-air, gripping a chilling blue Nichirin sword with both hands, executing the Water Breathing technique. His black medium-length hair and iconic asymmetrical tortoiseshell pattern haori are fluttering fiercely in the wind. Surrounded by massive water vortex effects intertwined with dense and light ink splashes. Traditional Chinese ink painting style, strong motion blur, ink splashing, xuan paper texture, extreme details, 8k ultra-high definition.
+```
+
+负面提示词：
+
+```text
+(worst quality, low quality:1.4),
+(bad hands, missing fingers, extra fingers, fused fingers, too many fingers:1.4),
+(deformed hands, malformed hands, missing hand, floating hand:1.3),
+(bad anatomy, bad proportions, extra limbs, missing limbs:1.3),
+(deformed face, asymmetrical eyes, cross-eyed, blurry face, distorted features:1.3),
+text, watermark, signature
+```
+
+随机种子：
+
+```text
+318036859179089
+```
+
 ## 常见问题
 
 ### 仓库为什么没有数据集？
